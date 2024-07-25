@@ -1,5 +1,5 @@
 // cypress/e2e/duckduckgo.ts
-import { When, Then } from "cypress-cucumber-preprocessor/steps";
+import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
 Given("enter the principal page", () => {
     //cy.visit("https://www.duckduckgo.com");
